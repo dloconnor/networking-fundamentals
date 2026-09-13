@@ -1,6 +1,6 @@
 # Lab 03 — ARP: Who Has This IP?
 
-## Goal
+##  Objective
 
 See how your computer discovers the MAC address of another device on the local network.
 
