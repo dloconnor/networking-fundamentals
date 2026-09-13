@@ -42,11 +42,72 @@ Stop the capture.
 
 Look at these columns:
 
-```text
 Source
 Destination
 Protocol
 Info
+
+Source
+Destination
+Protocol
+Info
+
+## Observe
+
+Can you find:
+
+ -  Your own IP address?
+ - Other IP addresses?
+ - Protocols such as TCP, UDP, DNS or ARP?
+
+Don't worry if you don't understand them yet.
+
+3. Capture a Ping
+
+Start a new capture.
+
+Open a terminal and ping your default gateway.
+
+- Windows
+ping 192.168.1.1
+
+- Linux/macOS
+ping -c 4 192.168.1.1
+
+Replace 192.168.1.1 with your own default gateway.
+
+Stop the capture.
+
+In Wireshark, enter this display filter:
+
+icmp
+
+You should see:
+
+Echo request
+Echo reply
+Questions
+What is the source IP of the Echo Request?
+What is the destination IP?
+What changes in the Echo Reply?
+What would it mean if you saw requests but no replies?
+Think About It
+
+You have now seen traffic created by a command you ran yourself.
+
+Networking is not just diagrams and theory.
+
+You can observe what is actually happening.
+
+What Happens to the Packet Next?
+
+Your computer knows the IP address of the destination.
+
+But on a local Ethernet network, it also needs a MAC address.
+
+How does it find it?
+
+We will get to that shortly.
 
 ## Observe
 
