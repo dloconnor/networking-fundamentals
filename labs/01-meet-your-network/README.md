@@ -3,14 +3,14 @@
 ## Objective - Understand the basic network information configured on your computer.
 
 What You Will Learn
-By the end of this lab, you should be able to identify:
+By the end of this lab, you should be able to identify your:
 
-1.Your IP address
-2.Your subnet mask
-3.Your default gateway
-4.Your DNS servers
-5.Your MAC address
-6.Your active network interface
+1. IP address
+2. Subnet mask
+3. Default gateway
+4. DNS servers
+5. MAC address
+6. Active network interface
 
 Before You Start
 You only need:
@@ -55,12 +55,12 @@ Questions
 
 Find and write down:
 
-1.What is your IP address?
-2.What is your subnet mask?
-3.What is your default gateway?
-4.What DNS servers are configured?
-5.What is your MAC address?
-6.Are you connected using Ethernet or Wi-Fi?
+1. What is your IP address?
+2. What is your subnet mask?
+3. What is your default gateway?
+4. What DNS servers are configured?
+5. What is your MAC address?
+6. Are you connected using Ethernet or Wi-Fi?
 
 Think About It
 
