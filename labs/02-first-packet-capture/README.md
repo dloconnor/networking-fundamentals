@@ -29,6 +29,9 @@ Select the interface you are currently using:
 
 You should normally see activity beside the active interface.
 
+<img width="1716" height="883" alt="image" src="https://github.com/user-attachments/assets/82dff694-be0a-4fb0-ae32-0fa57f8a6ad5" />
+
+
 ## 2. Capture Some Traffic
 
 Double-click the interface.
