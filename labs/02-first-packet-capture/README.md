@@ -14,7 +14,7 @@ By the end of this lab, you should be able to:
 
 - A computer with internet access
 - Wireshark installed
-- Download Wireshare from https://www.wireshark.org/download.html
+- Download Wireshark from https://www.wireshark.org/download.html
 
 ---
 
