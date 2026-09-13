@@ -2,15 +2,15 @@
 
 ## Objective - Understand the basic network information configured on your computer.
 
-What You Will Learn
+### What You Will Learn
 By the end of this lab, you should be able to identify your:
 
-1. IP address
-2. Subnet mask
-3. Default gateway
-4. DNS servers
-5. MAC address
-6. Active network interface
+- IP address
+- Subnet mask
+- Default gateway
+- DNS servers
+- MAC address
+- Active network interface
 
 Before You Start
 You only need:
