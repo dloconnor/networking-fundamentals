@@ -96,7 +96,3 @@ You should see:
 You have now seen traffic created by a command you ran yourself.
 
 Networking is not just diagrams and theory.  You can observe what is actually happening.
-
-What Happens to the Packet Next?
-
-Your computer knows the IP address of the destination.  But on a local Ethernet network, it also needs a MAC address. How does it find it? We will get to that shortly.
