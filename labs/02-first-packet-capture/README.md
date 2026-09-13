@@ -42,15 +42,12 @@ Stop the capture.
 
 Look at these columns:
 
-Source
-Destination
-Protocol
-Info
+- Source
+- Destination
+- Protocol
+- Info
 
-Source
-Destination
-Protocol
-Info
+<img width="2226" height="1633" alt="image" src="https://github.com/user-attachments/assets/8e0f3e4b-a5e5-4cca-9b06-bc556f6d5b9b" />
 
 ## Observe
 
