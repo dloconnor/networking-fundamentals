@@ -14,3 +14,4 @@ No prior networking experience required.
 ## Labs
 
 1. [Lab 01 — Meet Your Network](labs/01-meet-your-network/README.md)
+2. [Lab 02 - First Packet Capture](labs/02-first-packet-capture/README.md)
