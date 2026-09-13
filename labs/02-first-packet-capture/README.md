@@ -1,6 +1,6 @@
 # Lab 02 — Capture Your First Packet
 
-## Goal
+## Objective
 
 Use Wireshark to capture and inspect traffic from your own computer.
 
