@@ -55,16 +55,13 @@ route -n get default
 
 Find and write down:
 
-1. What is your IP address?
-2. What is your subnet mask?
-3. What is your default gateway?
-4. What DNS servers are configured?
-5. What is your MAC address?
-6. Are you connected using Ethernet or Wi-Fi?
-
-Think About It
-
-Your computer has an IP address. But your router also has an IP address. Why does your computer need to know the router's address?
+- What is your IP address?
+- What is your subnet mask?
+- What is your default gateway?
+- What DNS servers are configured?
+- What is your MAC address?
+- Are you connected using Ethernet or Wi-Fi?
+- Your computer has an IP address. But your router also has an IP address. Why does your computer need to know the router's address?
 
 ## Challenge
 
@@ -75,15 +72,3 @@ Run the commands again.
 Reconnect.
 
 What changed?
-
-What Happens to the Packet Next?
-
-Imagine you open a browser and try to reach a website.
-
-Your computer now knows its own IP address, subnet mask, default gateway and DNS server.
-
-But before it can send anything...
-
-How does it decide whether the destination is on the local network or somewhere else?
-
-That is what we will investigate next.
