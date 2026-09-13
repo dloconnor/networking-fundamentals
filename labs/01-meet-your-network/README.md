@@ -1,6 +1,6 @@
-#Lab 01 — Meet Your Network
+# Lab 01 — Meet Your Network
 
-##Objective - Understand the basic network information configured on your computer.
+## Objective - Understand the basic network information configured on your computer.
 
 What You Will Learn
 By the end of this lab, you should be able to identify:
@@ -25,14 +25,14 @@ But what information does your computer actually need in order to communicate?
 
 In this lab, we are going to investigate the network configuration your computer is already using.
 
-##Part 1 — Find Your Network Configuration
+## Part 1 — Find Your Network Configuration
 
-##Windows
+## Windows
 Open Command Prompt and run:
 
 ipconfig /all
 
-##Linux
+## Linux
 
 Run:
 
@@ -42,7 +42,7 @@ Then:
 
 ip route
 
-##macOS
+## macOS
 
 Run:
 
@@ -66,7 +66,7 @@ Think About It
 
 Your computer has an IP address. But your router also has an IP address. Why does your computer need to know the router's address?
 
-##Challenge
+## Challenge
 
 Disconnect from your network.
 
