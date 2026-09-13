@@ -15,4 +15,9 @@ No prior networking experience required.
 
 1. [Lab 01 - Meet Your Network](labs/01-meet-your-network/README.md)
 2. [Lab 02 - First Packet Capture](labs/02-first-packet-capture/README.md)
-3. [Lab 03 - ARP](labs/03-arp/README.md)
+3. [Lab 03 - ARP - Who has this IP?](labs/03-arp/README.md)
+
+
+## Quick Lessons
+
+- [The Network Engineer's Toolkit](lessons/network-engineer-toolkit/README.md)
