@@ -15,13 +15,12 @@ By the end of this lab, you should be able to identify your:
 Before You Start
 You only need:
 
-A Windows, macOS, or Linux computer
-An internet connection
-A terminal or command prompt
-Scenario
-Your laptop is connected to a network and can access the internet.
-
-But what information does your computer actually need in order to communicate?
+- A Windows, macOS, or Linux computer
+- An internet connection
+- A terminal or command prompt
+  
+## Scenario
+Your laptop is connected to a network and can access the internet.  But what information does your computer actually need in order to communicate?
 
 In this lab, we are going to investigate the network configuration your computer is already using.
 
