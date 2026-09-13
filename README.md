@@ -15,3 +15,4 @@ No prior networking experience required.
 
 1. [Lab 01 - Meet Your Network](labs/01-meet-your-network/README.md)
 2. [Lab 02 - First Packet Capture](labs/02-first-packet-capture/README.md)
+3. [Lab 03 - PING and ICMP](labs/03-ping-and-icmp/README.md)
