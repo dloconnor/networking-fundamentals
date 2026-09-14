@@ -20,5 +20,5 @@ No prior networking experience required.
 
 ## Quick Lessons
 
-- [The Network Engineer's Toolkit](lessons/network-engineer-toolkit/README.md)
+- [The Network Engineer's Software Toolkit](lessons/engineer-software-toolbox)
 - [What's in the Engineers Kitbag?](lessons/engineers-kitbag/README.md)
