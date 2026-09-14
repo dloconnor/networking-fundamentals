@@ -19,10 +19,12 @@ Every engineers kit bag will be different but if your intention is to work with 
   
 - Small screwdriver set:
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/87a11ff1-ddc4-4b29-9340-c6c7cf10dbb5" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/87a11ff1-ddc4-4b29-9340-c6c7cf10dbb5" />
 
 - Cage nuts - you'll soon hate these things.
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f6d6f341-a6ac-4b1e-bd0b-1c1bf23aa0fe" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f6d6f341-a6ac-4b1e-bd0b-1c1bf23aa0fe" />
+
+And the last core item you'll require - a sturdy rucksack to hold all this in.  Look for something that you can split your tools out in, this will save time in the future when you're searching for a specific item.
 
 
