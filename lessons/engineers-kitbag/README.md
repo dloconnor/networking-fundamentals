@@ -19,7 +19,10 @@ Every engineers kit bag will be different but if your intention is to work with 
   
 - Small screwdriver set:
 
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/87a11ff1-ddc4-4b29-9340-c6c7cf10dbb5" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/87a11ff1-ddc4-4b29-9340-c6c7cf10dbb5" />
 
-- Cage nuts - 
+- Cage nuts - you'll soon hate these things.
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f6d6f341-a6ac-4b1e-bd0b-1c1bf23aa0fe" />
+
 
