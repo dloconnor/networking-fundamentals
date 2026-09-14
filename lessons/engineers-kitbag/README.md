@@ -13,7 +13,7 @@ Every engineers kit bag will be different but if your intention is to work with 
   
 - Cable tester - these can be budget dependant:
 
-  <img width="516" height="800" alt="image" src="https://github.com/user-attachments/assets/3104e437-3267-41e2-ae4d-fc57415dc36a" />
+  <img width="250" height="400" alt="image" src="https://github.com/user-attachments/assets/3104e437-3267-41e2-ae4d-fc57415dc36a" />
 
 - Label maker - that piece of equipment you're installing needs a label.  This will help the next engineer that comes along to identify the device you've installed.
   
