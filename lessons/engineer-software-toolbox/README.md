@@ -1,11 +1,10 @@
 # Quick Lesson — Engineer's Software Toolkit
 
 Every network engineer will have their own preferred software tools, but there are a few core utilities you'll use again and again.
-The important thing is not to memorise every command.  Learn what each tool helps you test or understand.
 
 ## Connectivity Tools
 
-## ping
+### ping
 
 `ping` is one of the simplest troubleshooting tools available.  It can help you check whether a destination is reachable and give you an indication of response time.
 
@@ -17,9 +16,9 @@ A successful ping tells you that you received a response.
 
 Remember though, No ping reply does not always mean the device is offline.  Firewalls and network devices can block ICMP traffic.
 
-## traceroute / tracert
+### traceroute / tracert
 
-traceroute helps you see the path traffic takes towards a destination.
+`traceroute` helps you see the path traffic takes towards a destination.
 
 Windows: tracert 8.8.8.8
 
@@ -27,17 +26,17 @@ Linux/macOS: traceroute 8.8.8.8
 
 This can be useful when trying to understand where traffic is stopping or taking an unexpected path.
 
-### Device Access
+## Device Access
 
-## SSH
+### SSH
 
 SSH stands for Secure Shell.  It is commonly used to remotely access routers, switches, firewalls and servers. SSH encrypts the connection, including usernames, passwords and commands. This should normally be your preferred remote access method.
 
-### Network Information
+## Network Information
 
-## ipconfig
+### ipconfig
 
-On Windows: ipconfig
+On Windows: `ipconfig`
 
 or: ipconfig /all
 
@@ -48,33 +47,33 @@ This shows information such as:
 - Default gateway
 - DNS servers
 
-### DNS Tools
+## DNS Tools
 
-## nslookup
+### nslookup
 
-nslookup lets you query DNS.
+`nslookup` lets you query DNS.
 
 Example: nslookup openai.com
 
 Useful when trying to work out whether a problem is related to DNS.
 
-## dig
+### dig
 
-dig provides more detailed DNS information and is commonly used on Linux and macOS.
+`dig` provides more detailed DNS information and is commonly used on Linux and macOS.
 
 Example: dig openai.com
 
-### Testing Applications
+## Testing Applications
 
-## curl
+### curl
 
-curl allows you to test HTTP and HTTPS connections from the command line.
+`curl` allows you to test HTTP and HTTPS connections from the command line.
 
 Example: curl https://example.com
 
 This can help you determine whether a web service is responding without needing to open a browser.
 
-## netstat / ss
+### netstat / ss
 
 These tools show network connections and listening ports on a computer.
 
@@ -86,7 +85,7 @@ These can help answer questions such as:
 
 Is the application listening?  Which port is it using?  Is there already a connection established?
 
-### File Transfer
+## File Transfer
 
 Network engineers often need to move configuration files, firmware or backups between devices. You may come across:
 
