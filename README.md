@@ -7,7 +7,7 @@ And that’s great. But underneath almost all of it is something much less fashi
 
 ## Learn the basics first.
 
-A practical, hands-on introduction to the networking fundamentals every engineer should understand.
+The intention of this repository is simple - focused, hands-on networking fundamental labs that every engineer should understand.
 
 No prior networking experience required.
 
