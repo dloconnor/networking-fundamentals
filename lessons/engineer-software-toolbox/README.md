@@ -1,75 +1,170 @@
-# Quick Lesson — Engineers kit bag
+# Quick Lesson — Engineer's Software Toolkit
 
-You do not need expensive equipment to start learning networking.  A good network engineer mainly needs tools to:
+Every network engineer will have their own preferred software tools, but there are a few core utilities you'll use again and again.
+The important thing is not to memorise every command.  Learn what each tool helps you test or understand.
 
-- Observe
-- Test
-- Connect
-- Troubleshoot
+## Connectivity Tools
 
----
+### ping
 
-## Essential Command-Line Tools
+`ping` is one of the simplest troubleshooting tools available.  It can help you check whether a destination is reachable and give you an indication of response time.
 
-You will use these regularly:
+Example: ping 192.168.1.1
 
-- ping        Test basic reachability
-- traceroute  See the path traffic takes
-- ipconfig    View network settings on Windows
-- ip          View network settings on Linux
-- arp         View IP-to-MAC mappings
-- nslookup    Test DNS
-- dig         Query DNS in more detail
-- netstat     View network connections
-- ss          Modern Linux alternative to netstat
-- curl        Test websites and APIs
+<img width="476" height="208" alt="image" src="https://github.com/user-attachments/assets/25870507-f619-4dd7-970c-613295d5c40d" />
 
-Over time you'll get used to using every option.
+A successful ping tells you that you received a response.
 
-One of the most useful tools you can learn.
+Remember though, No ping reply does not always mean the device is offline.  Firewalls and network devices can block ICMP traffic.
 
-Wireshark lets you inspect network traffic and see protocols such as:
+### traceroute / tracert
 
-- ARP
-- DNS
-- ICMP
-- TCP
-- UDP
-- HTTP
-- TLS
+traceroute helps you see the path traffic takes towards a destination.
 
-## Connecting to Network Devices
+Windows: tracert 8.8.8.8
+
+Linux/macOS: traceroute 8.8.8.8
+
+This can be useful when trying to understand where traffic is stopping or taking an unexpected path.
+
+### Device Access
+
 SSH
 
-Used to securely connect to routers, switches, firewalls and servers.
+SSH stands for Secure Shell.  It is commonly used to remotely access routers, switches, firewalls and servers. SSH encrypts the connection, including usernames, passwords and commands. This should normally be your preferred remote access method.
+
+### Network Information
+
+ipconfig
+
+On Windows: ipconfig
+
+or: ipconfig /all
+
+This shows information such as:
+
+- IP address
+- Subnet mask
+- Default gateway
+- DNS servers
+ip
+
+On Linux:
+
+ip addr
+
+and:
+
+ip route
+
+These commands show interface addressing and routing information.
+
+arp
+
+ARP lets you view IP-to-MAC address mappings.
+
+Windows/macOS:
+
+arp -a
+
+Linux:
+
+ip neigh
+
+This is useful when troubleshooting communication on a local network.
+
+DNS Tools
+nslookup
+
+nslookup lets you query DNS.
 
 Example:
 
-ssh admin@192.168.1.1
+nslookup openai.com
 
-## Console Cable
+Useful when trying to work out whether a problem is related to DNS.
 
-Sometimes a device has no working network connection. A console cable lets you connect directly to it. This is especially useful when configuring or recovering network equipment.
+dig
 
-## Building Practice Networks
+dig provides more detailed DNS information and is commonly used on Linux and macOS.
 
-You do not need a cupboard full of routers and switches but from personal experience hands-on physical labs win hands down everytime.
+Example:
 
-Network simulators allow you to practise on your computer.
+dig openai.com
+Packet Capture
+Wireshark
 
-## Physical Tools
+Wireshark allows you to capture and inspect network traffic.
 
-If you eventually work with physical networks, useful tools include:
+You can see protocols such as:
 
-- Laptop
-- Console cable
-- Ethernet cables
-- Cable tester
-- Label maker
-- Small screwdriver set
-- Cage nuts
+ARP
+DNS
+ICMP
+TCP
+UDP
+HTTP
+TLS
 
-## The Most Important Tool
+Wireshark is one of the most useful tools you can learn as a network engineer.
 
-The most valuable tool a network engineer has is not hardware or software.  It is a methodical troubleshooting process and more importantly a can-do attitude.
+When something does not make sense:
 
+Capture the packets and see what is actually happening.
+
+tcpdump
+
+tcpdump is a command-line packet capture tool commonly found on Linux systems.
+
+Example:
+
+tcpdump -i eth0
+
+It is particularly useful when working on servers where you may not have access to a graphical interface.
+
+Testing Applications
+curl
+
+curl allows you to test HTTP and HTTPS connections from the command line.
+
+Example:
+
+curl https://example.com
+
+This can help you determine whether a web service is responding without needing to open a browser.
+
+netstat / ss
+
+These tools show network connections and listening ports on a computer.
+
+Windows:
+
+netstat -an
+
+Linux:
+
+ss -tuln
+
+These can help answer questions such as:
+
+Is the application listening?
+
+Which port is it using?
+
+Is there already a connection established?
+
+### File Transfer
+
+Network engineers often need to move configuration files, firmware or backups between devices. You may come across:
+
+- SCP
+- SFTP
+- TFTP
+- FTP
+
+Where possible, prefer secure protocols such as SCP or SFTP.  TFTP and FTP are older protocols but are still commonly encountered on network equipment.
+
+
+The tools give you evidence.
+
+Your job is to understand what that evidence is telling you.
