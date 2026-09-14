@@ -3,7 +3,7 @@
 ## Objective - Understand the basic network information configured on your computer.
 
 ### What You Will Learn
-By the end of this lab, you should be able to identify your:
+You have to start somewhere so lets start somewhere very simple.  By the end of this lab, you should be able to identify your:
 
 - IP address
 - Subnet mask
@@ -20,14 +20,14 @@ You only need:
 - A terminal or command prompt
   
 ## Scenario
-Your laptop is connected to a network and can access the internet.  But what information does your computer actually need in order to communicate?
+Your laptop is connected to a network and can access the internet.  You could be at home, a coffee shop or even the office.  But what information does your computer actually need in order to communicate?
 
 In this lab, we are going to investigate the network configuration your computer is already using.
 
 ## Part 1 — Find Your Network Configuration
 
 ## Windows
-Open Command Prompt and run:
+Open Command Prompt and run/type:
 
 ipconfig /all
 
