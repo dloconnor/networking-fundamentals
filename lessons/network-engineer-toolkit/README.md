@@ -24,29 +24,21 @@ You will use these regularly:
 - ss          Modern Linux alternative to netstat
 - curl        Test websites and APIs
 
-You do not need to memorise every option.
-
-Learn what question each tool helps you answer.
-
-Packet Analysis
-Wireshark
+Over time you'll get used to using every option.
 
 One of the most useful tools you can learn.
 
 Wireshark lets you inspect network traffic and see protocols such as:
 
-ARP
-DNS
-ICMP
-TCP
-UDP
-HTTP
-TLS
-tcpdump
+- ARP
+- DNS
+- ICMP
+- TCP
+- UDP
+- HTTP
+- TLS
 
-A command-line packet capture tool commonly used on Linux servers.
-
-Connecting to Network Devices
+## Connecting to Network Devices
 SSH
 
 Used to securely connect to routers, switches, firewalls and servers.
@@ -54,77 +46,30 @@ Used to securely connect to routers, switches, firewalls and servers.
 Example:
 
 ssh admin@192.168.1.1
-Console Cable
 
-Sometimes a device has no working network connection.
+## Console Cable
 
-A console cable lets you connect directly to it.
+Sometimes a device has no working network connection. A console cable lets you connect directly to it. This is especially useful when configuring or recovering network equipment.
 
-This is especially useful when configuring or recovering network equipment.
+## Building Practice Networks
 
-Building Practice Networks
-
-You do not need a cupboard full of routers and switches.
+You do not need a cupboard full of routers and switches but from personal experience hands-on physical labs win hands down everytime.
 
 Network simulators allow you to practise on your computer.
 
-Popular options include:
-
-Cisco Packet Tracer
-GNS3
-EVE-NG
-
-We will introduce these when we start building larger networks.
-
-Physical Tools
+## Physical Tools
 
 If you eventually work with physical networks, useful tools include:
 
-Laptop
-Console cable
-Ethernet cables
-USB-to-Ethernet adapter
-Cable tester
-Label maker
-Small screwdriver set
+- Laptop
+- Console cable
+- Ethernet cables
+- Cable tester
+- Label maker
+- Small screwdriver set
+- Cage nuts
 
-More advanced engineers may also use fibre testers and other specialist equipment.
+## The Most Important Tool
 
-You do not need these to start learning.
+The most valuable tool a network engineer has is not hardware or software.  It is a methodical troubleshooting process and more importantly a can-do attitude.
 
-The Most Important Tool
-
-The most valuable tool a network engineer has is not hardware or software.
-
-It is a methodical troubleshooting process.
-
-Instead of guessing:
-
-What do I know?
-
-What should be happening?
-
-What is actually happening?
-
-Where does the behaviour change?
-
-What can I test next?
-
-Tools help you collect evidence.
-
-Your job is to interpret it.
-
-Key Takeaway
-
-You do not need dozens of tools.
-
-Start with:
-
-Terminal
-ping
-traceroute
-ipconfig / ip
-nslookup / dig
-arp
-Wireshark
-SSH
